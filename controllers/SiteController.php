@@ -147,4 +147,8 @@ class SiteController extends Controller
         }
     }
 
+    public function actionAbout2()
+    {
+        return $this->render('about');
+    }
 }
